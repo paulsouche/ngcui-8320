@@ -25,7 +25,7 @@ const ngcui_interfaces_1 = require("ngcui-interfaces");
 
 Even if `ngcui_interfaces_1` is unused
 
-EDIT
+EDIT 1
 
 I Added typescript transpilation command. Run `npm run tsc` or `yarn run tsc` to transpile. Dist only contains
 
@@ -34,3 +34,13 @@ const core_1 = require("@angular/core");
 ```
 
 So I don't think this is a TypeScript issue
+
+EDIT 2
+
+I tried the same thing with typings from typeRoot `./node_modules/@types` imports are generated
+
+```javascript
+const core_1 = require("@angular/core");
+const ngcui_interfaces_1 = require("ngcui-interfaces");
+const express_1 = require("express");
+```
