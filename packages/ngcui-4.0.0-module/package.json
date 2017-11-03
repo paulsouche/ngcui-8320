@@ -1,0 +1,24 @@
+{
+  "name": "ngcui-4.0.0-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "Paul Souche <paul.souche@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && ngc -p tsconfig-aot.json"
+  },
+  "dependencies": {
+    "@angular/core": "^4.0.0",
+    "ngcui-interfaces": "^1.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "rimraf": "^2.0.0",
+    "rxjs": "^5.0.0",
+    "typescript": "^2.0.0",
+    "zone.js": "^0.8.0"
+  }
+}
