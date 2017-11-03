@@ -1,6 +1,7 @@
 {
 	"scripts": {
-		"build": "lerna run build"
+		"build": "lerna run build",
+		"tsc": "lerna run tsc"
 	},
 	"devDependencies": {
 		"lerna": "^2.4.0"

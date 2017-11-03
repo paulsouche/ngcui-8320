@@ -7,7 +7,8 @@
   "author": "Paul Souche <paul.souche@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && ngc -p tsconfig-aot.json"
+    "build": "rimraf dist && ngc -p tsconfig-aot.json",
+    "tsc": "rimraf dist && tsc --skipLibCheck"
   },
   "dependencies": {
     "@angular/core": "^5.0.0",

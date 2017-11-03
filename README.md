@@ -24,3 +24,13 @@ const ngcui_interfaces_1 = require("ngcui-interfaces");
 ```
 
 Even if `ngcui_interfaces_1` is unused
+
+EDIT
+
+I Added typescript transpilation command. Run `npm run tsc` or `yarn run tsc` to transpile. Dist only contains
+
+```javascript
+const core_1 = require("@angular/core");
+```
+
+So I don't think this is a TypeScript issue
