@@ -44,3 +44,25 @@ const core_1 = require("@angular/core");
 const ngcui_interfaces_1 = require("ngcui-interfaces");
 const express_1 = require("express");
 ```
+
+EDIT 3
+
+Specifying to the Angular Compiler to interpret the anotations as decorators allows to interpret them as in Angular4.
+
+`tsconfig-aot.json`
+
+```json
+{
+  ...
+  "angularCompilerOptions": {
+    ...
+    "annotationsAs": "decorators"
+  }
+}
+```
+
+Generated imports
+
+```javascript
+const core_1 = require("@angular/core");
+```

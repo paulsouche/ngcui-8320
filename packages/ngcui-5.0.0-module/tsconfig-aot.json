@@ -6,6 +6,7 @@
   "angularCompilerOptions": {
     "genDir": "dist",
     "skipMetadataEmit": false,
-    "strictMetadataEmit": true
+    "strictMetadataEmit": true,
+    "annotationsAs": "decorators"
   }
 }
